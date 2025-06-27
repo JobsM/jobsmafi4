@@ -7,6 +7,10 @@ body {
         }
         h1 {
             color: #FFD700;
+            text-shadow: 2px 2px 4px #000000,    /* Sombra preta suave */
+             0 0 10px #FFFFFF,       /* Brilho branco */
+             0 0 20px #FFD700; 
+            font-size: 27px ;/* Efeito glow dourado */
         }
         a {
             display: block;
@@ -21,13 +25,7 @@ body {
             font-weight: bold;
             transition: transform 0.3s, background-color 0.3s;
         }
-        span {
-            color: #ff7300;
-            text-shadow: 2px 2px 4px rgba(255, 81, 0, 0.932) ,
-                        0 0 25px rgba(255, 255, 255, 0.932);
-            font-weight: bold;
-            font-size: 22px;
-        }
+        
 
         a:hover {
             background-color: #FFA500;
