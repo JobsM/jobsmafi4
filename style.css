@@ -8,7 +8,7 @@ body {
         h1 {
             color: #FFD700;
         }
-            .prize {
+        .prize {
             color: #ff7300;
             text-shadow: 2px 2px 4px rgba(255, 81, 0, 0.932) ,
                         0 0 25px rgba(255, 255, 255, 0.932);
