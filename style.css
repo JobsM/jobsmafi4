@@ -10,7 +10,7 @@ body {
             text-shadow: 2px 2px 4px #000000,    /* Sombra preta suave */
              0 0 10px #FFFFFF,       /* Brilho branco */
              0 0 20px #FFD700; 
-            font-size: 27px ;/* Efeito glow dourado */
+            font-size: 31px ;/* Efeito glow dourado */
         }
         a {
             display: block;
