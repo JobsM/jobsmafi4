@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 35px;
-    background: linear-gradient(270deg, white, gray, black, gray, white);
+    background: linear-gradient(270deg, white, gray,rgb(36, 36, 36), gray, white);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
