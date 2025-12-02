@@ -1,4 +1,4 @@
-body {
+ body {
             background-color: #000;
             color: #fff;
             font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 35px;
-    background: linear-gradient(270deg, white, gray,rgb(36, 36, 36), gray, white);
+    background: linear-gradient(270deg, white, gray, rgb(36, 36, 36), gray, white);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,4 +54,42 @@ h1 {
             width: 185px;
             height: 185px;
             border-radius: 30%;
+        }
+
+        .btn-site-destaque {
+            background: linear-gradient(135deg, #2b2b2b, #000000); /* Degradê Preto Neutro */
+            color: #ffffff !important; /* Texto Branco */
+            border: 1px solid #4a4a4a; /* Borda cinza sutil */
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        /* Efeito de brilho na borda ao passar o mouse */
+        .btn-site-destaque:hover {
+            border-color: #a1a1a1; /* Borda fica mais clara */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+            transform: scale(1.02); /* Cresce um pouquinho */
+        }
+
+        /* Efeito de brilho interno sutil */
+        .btn-site-destaque::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: 0.5s;
+        }
+
+        .btn-site-destaque:hover::after {
+            left: 100%; /* Passa um brilho rápido quando passa o mouse */
         }
